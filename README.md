@@ -42,6 +42,9 @@ GitHub Pages: [https://runnova.github.io/NovaOS/](https://runnova.github.io/Nova
 > [!NOTE]
 > If you are on a mobile, NovaOS Mobile Mode works really well as a PWA. Learn How To Install [here](https://novaos.gitbook.io/main/get-started/access-novaos#installing-novaos-as-an-app-in-chrome).
 
+## Contribute to NovaOS
+The [developer version](https://github.com/runnova/dev) of NovaOS includes the most up to date updates. It's the bleeding edge version of NovaOS, which may have a whole lot of bugs and issues. But it is reccomended to submit pull requests to that version instead of the public version (this one).
+
 ## Self hosting NovaOS locally
 1. Clone the repository
 ```sh
