@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="xos-icon.png">
         <link rel="canonical" href="https://runnova.github.io/">
-        <!--NovaOS scripts-->
+        <!--xOS scripts-->
         <script src="scripts/utility.js"></script>
         <script src="script.js" defer></script>
         <!--PWA Manifest-->
@@ -112,7 +112,7 @@
                                 <h1>I can't even know what time is it now.<br>Blame your browser for it.</h1>
                                 <p>Well your browser seems to be messing around saying you turned off JS. Javascript is required for the functioning of the modern web. </p>
                                 <b>If you have set JS to be disabled:</b>
-                                <p>Nova OS requires JS to run.
+                                <p>xOS requires JS to run.
                                 <li>You can always <b><a href="https://www.larimer.gov/it/enable-javascript" style="color:white;"> turn JS back on</a>.</b>
                                 </li>
                                 <li>Or try a different browser.
@@ -230,7 +230,7 @@
                                                         </span>
                                                 </button>
                                                 <button class="tooltip " onclick="launchbios()">
-                                                        <span class="tooltiptext">Nova Setup</span>
+                                                        <span class="tooltiptext">xOS Setup</span>
                                                         <span class="material-symbols-rounded">
                                                                 power
                                                         </span>
@@ -243,14 +243,14 @@
                                                                         <div>
                                                                                 <svg viewBox="0 0 44 44">
                                                                                         <path
-                                                                                                d="M14,24 L21,31 L39.7428882,11.5937758 C35.2809627,6.53125861 30.0333333,4 24,4 C12.95,4 4,12.95 4,24 C4,35.05 12.95,44 24,44 C35.05,44 44,35.05 44,24 C44,19.3 42.5809627,15.1645919 39.7428882,11.5937758"
+                                                                                                d="M14,24 L21,31 L39.7428882,11.5937758 C35.2809627,6.53125861 30.0333333,4 24,4 C12.95,4 4,12.95 4[...]
                                                                                                 transform="translate(-2.000000, -2.000000)"></path>
                                                                                 </svg>
                                                                         </div>
                                                                 </label>
                                                         </div>
                                                 </button>
-                                                <button class="tooltip " style="margin-left: auto;" onclick="logoutofnova()">
+                                                <button class="tooltip " style="margin-left: auto;" onclick="logoutofxos()">
                                                         <span class="tooltiptext">Sign Out</span>
                                                         <span class="material-symbols-rounded">
                                                                 logout
@@ -271,8 +271,8 @@
                         <span class="material-symbols-rounded closebtn" onclick="gid('bios').close()">
                                 close
                         </span>
-                        <small>Welcome to NovaOS Setup,</small>
-                        <h1 id="novasetupusernamedisplay"></h1>
+                        <small>Welcome to xOS Setup,</small>
+                        <h1 id="xossetupusernamedisplay"></h1>
                         <div class="buttongroup-grid">
                                 <button onclick="gid('terminal').showModal();gid('bios').close();">
                                         <span class="material-symbols-rounded">
@@ -292,7 +292,7 @@
                                         </span>
                                         Fix default apps
                                 </button>
-                                <button onclick="logoutofnova()">
+                                <button onclick="logoutofxos()">
                                         <span class="material-symbols-rounded">
                                                 logout
                                         </span>
@@ -314,7 +314,7 @@
                                         <span class="material-symbols-rounded">
                                                 restart_alt
                                         </span>
-                                        Reset NovaOS
+                                        Reset xOS
                                 </button>
                         </div>
                 </dialog>
@@ -336,7 +336,7 @@
                                         <br>
                                 </div>
                                 <span class="material-symbols-rounded"
-                                        onclick="document.getElementById('sleepwindow').close(); clearInterval(countdown);clearInterval(countdown2);document.getElementById('sleeptimer').textContent = '00:00';document.getElementById('sleepbtns').style.display = 'block';">close</span>
+                                        onclick="document.getElementById('sleepwindow').close(); clearInterval(countdown);clearInterval(countdown2);document.getElementById('sleeptimer').textConte[...]
                         </div>
                 </dialog>
                 <dialog id="terminal" class="scalableui onramcloseable">
