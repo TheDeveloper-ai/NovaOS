@@ -2267,7 +2267,16 @@ noscript {
 .userselect h1 {
         font-size: 15vh;
         opacity: 0.8;
-        margin-bottom: 1rem;
+        margin-bottom: 0.25rem;
+}
+
+#loginusselcdate {
+        font-size: 1.1rem;
+        font-weight: 300;
+        opacity: 0.6;
+        margin: 0 0 1rem 0;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
 .userselect .divider {

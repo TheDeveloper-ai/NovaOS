@@ -153,6 +153,9 @@ async function showloginmod() {
         const hours = String(now.getHours()).padStart(2, '0');
         const minutes = String(now.getMinutes()).padStart(2, '0');
         document.getElementById('loginusselctime').textContent = `${hours}:${minutes}`;
+        const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+        const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        document.getElementById('loginusselcdate').textContent = `${days[now.getDay()]}, ${months[now.getMonth()]} ${now.getDate()}`;
         gid('loginmod').showModal();
         gid('loginform1').addEventListener("keydown", async function (event) {
                 if (event.key === 'Enter') {
@@ -241,7 +244,6 @@ async function startup() {
                         gid('startupterms').innerHTML = "Startup completed";
                         await genDesktop();
                         closeElementedis();
-                        showLockscreen();
 
                         let fetchupdatedataver;
                         async function fetchDataAndUpdate() {
