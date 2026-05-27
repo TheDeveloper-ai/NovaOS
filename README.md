@@ -1,4 +1,4 @@
-<img height="55" src="https://github.com/user-attachments/assets/928feace-3086-413a-8376-2f131c3e2f91"/>
+<img height="55" src="file:///C:/Users/Rodolfo%20Moran/Downloads/ChatGPT%20Image%20May%2026,%202026,%2009_38_32%20PM.png"/>
 
 # xOS
 The vanilla JavaScript operating system for the web. Because Web Apps can run without the cloud sign-in.  
